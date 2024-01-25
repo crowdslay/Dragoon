@@ -49,7 +49,7 @@ loadCommands(client);
 
 client.on('messageCreate', message => {
   try {
-  if (message.content.startsWith('a!')) {
+  if (message.content.startsWith('c!')) {
     const args = message.content.slice(2).trim().split(/ +/);
     const commandName = args.shift().toLowerCase();
     console.log(`Received command: ${commandName}`);
@@ -81,7 +81,7 @@ client.on('ready', () => {
   client.user.setPresence({ activities: [{ name: 'Crowdslay is probably breaking something again!' }], status: 'online' });
 }); //tells that bot is hot and on
 
-const BOT_PREFIX = "a!";
+const BOT_PREFIX = "c!";
 
 
 
