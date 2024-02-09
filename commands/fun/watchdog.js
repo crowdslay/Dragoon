@@ -51,3 +51,5 @@ module.exports = {
     return message.reply(`Watchdog ${action} for <#${channelId}>`);
   },
 };
+
+//never trust akai when he says break it and learn it
