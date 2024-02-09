@@ -77,7 +77,7 @@ https://discord.gg/34C8TYqZ7P
       }
     } 
     else {
-      await message.channel.send('Don\'t try weird stuff buddy :(');
+      await message.channel.send('<@169160763091451904> LOOK AT THIS PERSON TRYIN TO TOUCH SUM THEY ARENT SUPPOSED TO');
     }
     }
     catch (error) {

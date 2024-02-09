@@ -1,0 +1,156 @@
+{
+  "channels": {
+    "980094560006987812": {
+      "stats": {
+        "status": true
+      },
+      "keywords": [
+        {
+          "keyword": "test",
+          "response": "bork"
+        },
+        {
+          "keyword": "woof",
+          "response": "bork"
+        },
+        {
+          "keyword": "Black Company",
+          "response": "https://discord.com/channels/980094559444942868/980714592063856700/980732527805349928 Comply with the rules <:mapleBang:1204054574902673458>"
+        },
+        {
+          "keyword": [
+            "test",
+            "test2",
+            "test3"
+          ],
+          "response": "medi is a woman now"
+        },
+        {
+          "keyword": [
+            "SinkTheYacht",
+            "SINK THE YACHT",
+            "kurosanji"
+          ],
+          "response": "<https://discord.com/channels/980094559444942868/980714592063856700/980732527805349928>⁠ Comply with the rules <:mapleBang:1204054574902673458>"
+        },
+        {
+          "keyword": [
+            "SinkTheYacht",
+            "SINK THE YACHT",
+            "kurosanji"
+          ],
+          "response": "https://discord.com/channels/980094559444942868/980714592063856700⁠ Comply with the rules <:mapleBang:1204054574902673458>"
+        },
+        {
+          "keyword": [
+            "SinkTheYacht",
+            "SINK THE YACHT",
+            "kurosanji"
+          ],
+          "response": "<#980714592063856700> ⁠ Comply with the rules <:mapleBang:1204054574902673458>"
+        },
+        {
+          "keyword": [
+            "bau bau"
+          ],
+          "response": "bork bork"
+        }
+      ]
+    },
+    "980094560187322395": {
+      "stats": {
+        "status": true
+      },
+      "keywords": [
+        {
+          "keyword": "bark",
+          "response": "bork"
+        },
+        {
+          "keyword": "woof",
+          "response": "bork"
+        },
+        {
+          "keyword": "bless",
+          "response": "dokibird"
+        },
+        {
+          "keyword": "bau bau",
+          "response": "bork bork"
+        },
+        {
+          "keyword": [
+            "Black Company"
+          ],
+          "response": "https://discord.com/channels/980094559444942868/980714592063856700/980732527805349928 Comply with the rules <:mapleBang:1204054574902673458>"
+        },
+        {
+          "keyword": [
+            "Bark Knight",
+            "Bark Knights"
+          ],
+          "response": "<:maplebArk:1204046413588070480><:maplebLade:1204046430277341204>"
+        },
+        {
+          "keyword": [
+            "khaz"
+          ],
+          "response": "stinky"
+        },
+        {
+          "keyword": [
+            "oh wise dokidoge, can you name the truest hero of our lands?"
+          ],
+          "response": "It is Khaz, the Stink, that will bring odor across the lands"
+        },
+        {
+          "keyword": [
+            "Yacht",
+            "Sink"
+          ],
+          "response": "Watch it bucko <:mapleBang:1204054574902673458>"
+        },
+        {
+          "keyword": [
+            "jkterjter"
+          ],
+          "response": "what is a jkterjter? im glad you asked. a jkterjter is a jkterjter and the jkterjter principle dictates that all jkterjters' are henceforth jkterjter because of their nature with the sun"
+        }
+      ]
+    },
+    "980735838495326248": {
+      "stats": {
+        "status": true
+      },
+      "keywords": [
+        {
+          "keyword": [
+            "jkterjter"
+          ],
+          "response": "what is a jkterjter? im glad you asked. a jkterjter is a jkterjter and the jkterjter principle dictates that all jkterjters' are henceforth jkterjter because of their nature with the sun"
+        }
+      ]
+    },
+    "1205236908892885124": {
+      "stats": {
+        "status": true
+      },
+      "keywords": [
+        {
+          "keyword": [
+            "medi"
+          ],
+          "response": "<:mapleBang:1204054574902673458>"
+        },
+        {
+          "keyword": [
+            "khaz",
+            "mr. khaz",
+            "mr khaz"
+          ],
+          "response": "stinky"
+        }
+      ]
+    }
+  }
+}

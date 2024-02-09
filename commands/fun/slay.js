@@ -36,7 +36,7 @@ https://discord.gg/famelira
     }
     } 
     else {
-     await message.channel.send('Dont try weird stuff buddy :(')
+     await message.channel.send('<@169160763091451904> LOOK AT THIS PERSON TRYIN TO TOUCH SUM THEY ARENT SUPPOSED TO')
     }
   },
 };

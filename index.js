@@ -83,8 +83,50 @@ client.on('ready', () => {
 
 const BOT_PREFIX = "c!";
 
+client.on('messageCreate', async (message) => {
+  // Check if the message is from a bot or not in a guild
+  if (message.author.bot || !message.guild) return;
 
+  // Load current settings
+  const settings = require('./commands/fun/watching.json');
 
+  // Check if the channel is being watched
+  if (!settings.channels.hasOwnProperty(message.channel.id)) return;
+
+  const channelId = message.channel.id;
+  const channelData = settings.channels[channelId];
+
+  // Check if the channel is enabled
+  if (!channelData.stats.status) return;
+
+  // Check if there are keywords for autoresponse
+  if (channelData.keywords && channelData.keywords.length > 0) {
+    let matchedKeyword = null;
+    let messageContent = message.content.toLowerCase();
+
+    // Iterate through each keyword
+    channelData.keywords.forEach(keywordObj => {
+      if (Array.isArray(keywordObj.keyword)) {
+        // If keyword is an array, check if message content starts with any of the keywords
+        keywordObj.keyword.forEach(keyword => {
+          if (messageContent.startsWith(keyword.toLowerCase())) {
+            matchedKeyword = keywordObj;
+          }
+        });
+      } else {
+        // If keyword is a single string, check if message content starts with it
+        if (messageContent.startsWith(keywordObj.keyword.toLowerCase())) {
+          matchedKeyword = keywordObj;
+        }
+      }
+    });
+
+    // If a matched keyword is found, send the autoresponse
+    if (matchedKeyword) {
+      message.reply(matchedKeyword.response);
+    }
+  }
+});
 
 
 
